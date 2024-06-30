@@ -1,0 +1,14 @@
+{
+  "name": "orangehrm",
+  "version": "1.0.0",
+  "description": "Step 1: npm init\r Step 2: npm install",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.12.0"
+  }
+}
