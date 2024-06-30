@@ -1,4 +1,4 @@
-import loginPage from '../../e2e/tests/pages/loginPage';
+import loginPage from '../pages/loginPage';
 
 describe('Scenario: Check OrangeHRM login Functionality',()=>{
     it('Test Case: Verify Successfull Login Functionality',()=>{

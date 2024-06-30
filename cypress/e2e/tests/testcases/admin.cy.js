@@ -1,6 +1,6 @@
-import dashboard from './pages/dashboard';
-import loginPage from './pages/loginPage';
-import Admin from './pages/admin';
+import dashboard from '../pages/dashboard';
+import loginPage from '../pages/loginPage';
+import Admin from '../pages/admin';
 
 describe('verify admin page',()=>{
 

@@ -1,7 +1,7 @@
 //<reference types=”cypress”/>
 import 'cypress-wait-until';
-import dashboard from './pages/dashboard';
-import loginPage from './pages/loginPage';
+import dashboard from '../pages/dashboard';
+import loginPage from '../pages/loginPage';
 
 describe('verify dashboard page',()=>{
 
