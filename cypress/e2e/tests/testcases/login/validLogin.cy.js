@@ -5,8 +5,8 @@ describe('Scenario: Check OrangeHRM login Functionality',()=>{
 
         let loginpage = new loginPage()
         
-        let username = 'Admin'
-        let password = 'admin123'
+        let username = Cypress.env('username')
+        let password = Cypress.env('password')
         let pageTitle = 'OrangeHRM'
         
         loginpage.getLogin(username,password)

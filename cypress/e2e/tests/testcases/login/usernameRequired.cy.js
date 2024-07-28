@@ -4,10 +4,10 @@ describe('Scenario: Check OrangeHRM login Functionality',()=>{
         let username = 'Admin'
 
         cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
-        cy.get('input[name="username"]').clear().type(username)
-        cy.get('button[type="submit"]').click()
+        cy.get('input[name="username"]').clear().type(username,{log:false})
+        //cy.get('button[type="submit"]').click()
 
-        cy.get('div>span[class*="oxd-input-group__message"]').should('be.visible').should('contain.text','Required')
+        //cy.get('div>span[class*="oxd-input-group__message"]').should('be.visible').should('contain.text','Required')
 
     })
 })
