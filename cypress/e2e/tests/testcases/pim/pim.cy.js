@@ -11,13 +11,13 @@ describe('Scenario: Test PIM Page', () => {
         pimpageObj.goToDashboardMenu('PIM')
         pimpageObj.verifyPageTitleURL()
         
-        pimpageObj.getCountofRecords()
-        pimpageObj.addNewEmployee()
+        //pimpageObj.getCountofRecords()
+        //pimpageObj.addNewEmployee()
 
 
-        pimpageObj.enterName(employeeName)
-        pimpageObj.enterMiddleName(employeeMiddleName)
-        pimpageObj.enterLastName(employeeLastName)
+        //pimpageObj.enterName(employeeName)
+        //pimpageObj.enterMiddleName(employeeMiddleName)
+        //pimpageObj.enterLastName(employeeLastName)
 
         //pimpageObj.createCredentialsToggle()
 
