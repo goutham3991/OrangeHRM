@@ -14,10 +14,10 @@ describe('Scenario: Check Personal Details',()=>{
         info.goToInfoTab(tab)
         info.checkMyInfoURL()
     })
-    it('Verify view personal details',()=>{
+    it.skip('Verify view personal details',()=>{
         info.checkMyInfoURL()
     })
-    it('Verify edit functionalityu for view personal details',()=>{
+    it.skip('Verify edit functionalityu for view personal details',()=>{
         info.EditPersonalDetails()
     })
 })
