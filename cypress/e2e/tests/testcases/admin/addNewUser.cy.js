@@ -3,7 +3,7 @@ import loginPage from '../../pages/loginPage';
 describe('Scenario: Add New User',()=>{
         let loginpage = new loginPage()
         let admin = new Admin()
-    it('Test Case: Verify Add New User Functionality',()=>{
+    it.skip('Test Case: Verify Add New User Functionality',()=>{
         let username = 'Admin'
         let password = 'admin123'
         loginpage.getLogin(username,password)

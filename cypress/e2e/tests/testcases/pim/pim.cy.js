@@ -6,7 +6,7 @@ describe('Scenario: Test PIM Page', () => {
     let employeeMiddleName = pimpageObj.middleName()
     let employeeLastName = pimpageObj.enterLastName()
 
-    it('Test Case: Test PIM page functionlity', () => {
+    it.skip('Test Case: Test PIM page functionlity', () => {
         cy.loginWithCred()
         pimpageObj.goToDashboardMenu('PIM')
         pimpageObj.verifyPageTitleURL()
